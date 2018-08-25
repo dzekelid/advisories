@@ -12,9 +12,12 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Charity Navigator
-  x-api-slug: charity-navigator
-  description: the-charity-navigator-data-api-provides-access-to-charity-navigatorsratings-research-content-and-charitable-organization-profiles-
+- name: CharityNavigatorDataAPI - Get Organizations Ein Advisories
+  x-api-slug: organizationseinadvisories-get
+  description: |-
+    Retrieve the full set of Charity Navigator advisories for a specified
+    organization. An advisory is a cautionary communication from Charity Navigator,
+    advising of unusual events or behavior related to a known organization.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28893-www-charitynavigator-org.jpg
   humanURL: http://www.charitynavigator.org
   baseURL: https://api.data.charitynavigator.org//v2
@@ -24,113 +27,36 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/organizationseinadvisories-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/organizationseinadvisories-get-openapi.md
-- name: Charity Navigator
-  x-api-slug: charity-navigator
-  description: the-charity-navigator-data-api-provides-access-to-charity-navigatorsratings-research-content-and-charitable-organization-profiles-
+- name: CharityNavigatorDataAPI - Get Advisory
+  x-api-slug: advisory-get
+  description: |-
+    Retrieve the full set of Charity Navigator advisories for a specified
+    organization. An advisory is a cautionary communication from Charity Navigator,
+    advising of unusual events or behavior related to a known organization.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28893-www-charitynavigator-org.jpg
   humanURL: http://www.charitynavigator.org
   baseURL: https://api.data.charitynavigator.org//v2
   tags: Charities, Giving, General Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/organizationseinadvisories-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/organizationseinadvisories-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/organizationseinadvisoriesadvisoryid-get-openapi.md
-- name: Charity Navigator
-  x-api-slug: charity-navigator
-  description: the-charity-navigator-data-api-provides-access-to-charity-navigatorsratings-research-content-and-charitable-organization-profiles-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28893-www-charitynavigator-org.jpg
-  humanURL: http://www.charitynavigator.org
-  baseURL: https://api.data.charitynavigator.org//v2
-  tags: Charities, Giving, General Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/organizationseinadvisories-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/organizationseinadvisories-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/organizationseinadvisoriesadvisoryid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/organizationseinadvisoriesadvisoryid-get-openapi.md
-- name: Charity Navigator
-  x-api-slug: charity-navigator
-  description: the-charity-navigator-data-api-provides-access-to-charity-navigatorsratings-research-content-and-charitable-organization-profiles-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28893-www-charitynavigator-org.jpg
-  humanURL: http://www.charitynavigator.org
-  baseURL: https://api.data.charitynavigator.org//v2
-  tags: Charities, Giving, General Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/organizationseinadvisories-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/organizationseinadvisories-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/organizationseinadvisoriesadvisoryid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/organizationseinadvisoriesadvisoryid-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/advisory-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/advisory-get-openapi.md
-- name: Charity Navigator
-  x-api-slug: charity-navigator
-  description: the-charity-navigator-data-api-provides-access-to-charity-navigatorsratings-research-content-and-charitable-organization-profiles-
+- name: CharityNavigatorDataAPI - Get Advisory
+  x-api-slug: advisory-get
+  description: |-
+    Retrieve the full set of Charity Navigator advisories for a specified
+    organization. An advisory is a cautionary communication from Charity Navigator,
+    advising of unusual events or behavior related to a known organization.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28893-www-charitynavigator-org.jpg
   humanURL: http://www.charitynavigator.org
   baseURL: https://api.data.charitynavigator.org//v2
   tags: Charities, Giving, General Data
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/organizationseinadvisories-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/organizationseinadvisories-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/organizationseinadvisoriesadvisoryid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/organizationseinadvisoriesadvisoryid-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/advisory-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/advisory-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/organizationseinadvisoriesadvisoryid-get-openapi.md
-- name: Charity Navigator
-  x-api-slug: charity-navigator
-  description: the-charity-navigator-data-api-provides-access-to-charity-navigatorsratings-research-content-and-charitable-organization-profiles-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28893-www-charitynavigator-org.jpg
-  humanURL: http://www.charitynavigator.org
-  baseURL: https://api.data.charitynavigator.org//v2
-  tags: Charities, Giving, General Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/organizationseinadvisories-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/organizationseinadvisories-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/organizationseinadvisoriesadvisoryid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/organizationseinadvisoriesadvisoryid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/advisory-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/advisory-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/organizationseinadvisoriesadvisoryid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/advisory-get-openapi.md
-- name: Charity Navigator
-  x-api-slug: charity-navigator
-  description: Charity Navigator is an American independent charity watchdog organization
-    that evaluates charitable organizations in the United States.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28893-www-charitynavigator-org.jpg
-  humanURL: http://www.charitynavigator.org
-  baseURL: https://api.data.charitynavigator.org//v2
-  tags: Advisories
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/openapi.md
 x-common:
 - type: x-blog-rss
   url: http://blog.charitynavigator.org/feeds/posts/default?alt=rss
