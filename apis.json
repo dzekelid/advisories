@@ -1,0 +1,52 @@
+{
+	"name": "Streadata.io API Gallery - Advisories",
+	"description": "This is a repository of advisories APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/advisories.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://advisories.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Cisco Unity Connection Messaging Interface",
+			"x-api-slug": "cisco-unity-connection-messaging-interface",
+			"description": "The Cisco Unity Connection Messaging Interface (CUMI) is a messaging API for Cisco Unity Connection that has been designed to be stable and simple to use. It is based on leading industry standards for web-based API development, and provides access to a wide set of Connection messaging functionality.",
+			"image": "",
+			"humanURL": "http://docwiki.cisco.com/wiki/Cisco_Unity_Connection_Messaging_Interface_%28CUMI%29_API",
+			"baseURL": "https://api.cisco.com//",
+			"tags": "Advisories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/cisco-unity-connection-messaging-interface/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Charity Navigator",
+			"x-api-slug": "charity-navigator",
+			"description": "Charity Navigator is an American independent charity watchdog organization that evaluates charitable organizations in the United States.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28893-www-charitynavigator-org.jpg",
+			"humanURL": "http://www.charitynavigator.org",
+			"baseURL": "https://api.data.charitynavigator.org//v2",
+			"tags": "Advisories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Advisories",
+	"include": [
+		{
+			"name": "Cisco Unity Connection Messaging Interface",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/cisco-unity-connection-messaging-interface/apis.yaml"
+		},
+		{
+			"name": "Charity Navigator",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/charity-navigator/apis.yaml"
+		}
+	]
+}

@@ -3,11 +3,11 @@ swagger: "2.0"
 x-collection-name: Charity Navigator
 x-complete: 0
 info:
-  title: Charity Navigator Get Advisory
+  title: Charity Navigator Get Organizations Ein Advisories Advisory
   description: |-
-    Retrieve the full set of Charity Navigator advisories for a specified
-    organization. An advisory is a cautionary communication from Charity Navigator,
-    advising of unusual events or behavior related to a known organization.
+    Retrieve full details of a single Advisory, under a given organization. An
+    advisory is a cautionary communication from Charity Navigator, advising of
+    unusual events or behavior related to a known organization.
   version: 1.0.0
 host: api.data.charitynavigator.org
 basePath: /v2

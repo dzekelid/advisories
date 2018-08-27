@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Cisco Unity Connection Messaging Interface
 x-complete: 1
@@ -397,4 +396,3 @@ paths:
       - Severity
       - Severity
       - Lastpublished
----

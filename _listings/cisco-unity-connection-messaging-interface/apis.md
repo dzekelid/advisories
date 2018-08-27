@@ -9,8 +9,8 @@ image: ""
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Advisories
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/cisco-unity-connection-messaging-interface/apis.md
 specificationVersion: "0.14"
 apis:
@@ -317,6 +317,32 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/cisco-unity-connection-messaging-interface/securityadvisoriesovaladvisoryadvisory-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/cisco-unity-connection-messaging-interface/securityadvisoriesovaladvisoryadvisory-id-get-openapi.md
+- name: Cisco PSIRT open Vuln - Get Security Advisories Oval Advisory Advisory
+  x-api-slug: securityadvisoriesovaladvisoryadvisory-id-get
+  description: Used to obtain OVAL definitions for a given advisory ID `advisory_id`
+    (i.e., cisco-sa-20150819-pcp)
+  image: ""
+  humanURL: http://docwiki.cisco.com/wiki/Cisco_Unity_Connection_Messaging_Interface_%28CUMI%29_API
+  baseURL: https://api.cisco.com//
+  tags: Collaboration, Messages, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/cisco-unity-connection-messaging-interface/securityadvisoriesovaladvisoryadvisory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/cisco-unity-connection-messaging-interface/securityadvisoriesovaladvisoryadvisory-id-get-openapi.md
+- name: Cisco PSIRT open Vuln - Get Security Advisories Advisory Advisory
+  x-api-slug: securityadvisoriescvrfadvisoryadvisory-id-get
+  description: Used to obtain an advisory in CVRF format for a given advisory ID `advisory_id`
+    (i.e., cisco-sa-20150819-pcp)
+  image: ""
+  humanURL: http://docwiki.cisco.com/wiki/Cisco_Unity_Connection_Messaging_Interface_%28CUMI%29_API
+  baseURL: https://api.cisco.com//
+  tags: Collaboration, Messages, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/cisco-unity-connection-messaging-interface/securityadvisoriescvrfadvisoryadvisory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisories/master/_listings/cisco-unity-connection-messaging-interface/securityadvisoriescvrfadvisoryadvisory-id-get-openapi.md
 x-common:
 - type: x-website
   url: http://docwiki.cisco.com/wiki/Cisco_Unity_Connection_Messaging_Interface_%28CUMI%29_API
